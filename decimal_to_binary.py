@@ -11,9 +11,6 @@ def decimal_to_binary(n):
         
 print(decimal_to_binary(45))
 
-        
-print(decimal_to_binary(45))
-
 # using bitwise
 def dec_to_binary(n):
     if n == 0:
