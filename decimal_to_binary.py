@@ -10,3 +10,16 @@ def decimal_to_binary(n):
         return binary
         
 print(decimal_to_binary(45))
+
+
+# using bitwise
+def dec_to_binary(n):
+    if n == 0:
+        return 0
+    binary = ''
+    bit = n & 1
+    binary = str(bit) + binary
+    n == n >> 1
+    return binary
+
+print(dec_to_binary(45))
